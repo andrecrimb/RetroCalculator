@@ -12,6 +12,9 @@
 		54A105251E3E7272004278D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A105231E3E7272004278D5 /* Main.storyboard */; };
 		54A105271E3E7272004278D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A105261E3E7272004278D5 /* Assets.xcassets */; };
 		54A1052A1E3E7272004278D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A105281E3E7272004278D5 /* LaunchScreen.storyboard */; };
+		54A105331E401F45004278D5 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A105311E401F45004278D5 /* Minecrafter.Alt.ttf */; };
+		54A105341E401F45004278D5 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A105321E401F45004278D5 /* Minecrafter.Reg.ttf */; };
+		54A105361E4020BC004278D5 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A105351E4020BC004278D5 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		54A105261E3E7272004278D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54A105291E3E7272004278D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54A1052B1E3E7272004278D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A105311E401F45004278D5 /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
+		54A105321E401F45004278D5 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		54A105351E4020BC004278D5 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		54A1051E1E3E7272004278D5 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				54A105351E4020BC004278D5 /* Minecraft.ttf */,
+				54A105311E401F45004278D5 /* Minecrafter.Alt.ttf */,
+				54A105321E401F45004278D5 /* Minecrafter.Reg.ttf */,
 				54A1051F1E3E7272004278D5 /* AppDelegate.swift */,
 				54A105211E3E7272004278D5 /* ViewController.swift */,
 				54A105231E3E7272004278D5 /* Main.storyboard */,
@@ -123,9 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A105361E4020BC004278D5 /* Minecraft.ttf in Resources */,
 				54A1052A1E3E7272004278D5 /* LaunchScreen.storyboard in Resources */,
 				54A105271E3E7272004278D5 /* Assets.xcassets in Resources */,
+				54A105331E401F45004278D5 /* Minecrafter.Alt.ttf in Resources */,
 				54A105251E3E7272004278D5 /* Main.storyboard in Resources */,
+				54A105341E401F45004278D5 /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
