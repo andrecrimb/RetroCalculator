@@ -15,6 +15,7 @@
 		54A105331E401F45004278D5 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A105311E401F45004278D5 /* Minecrafter.Alt.ttf */; };
 		54A105341E401F45004278D5 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A105321E401F45004278D5 /* Minecrafter.Reg.ttf */; };
 		54A105361E4020BC004278D5 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A105351E4020BC004278D5 /* Minecraft.ttf */; };
+		54A105381E402308004278D5 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 54A105371E402308004278D5 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		54A105311E401F45004278D5 /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
 		54A105321E401F45004278D5 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
 		54A105351E4020BC004278D5 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		54A105371E402308004278D5 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				54A105351E4020BC004278D5 /* Minecraft.ttf */,
+				54A105371E402308004278D5 /* btn.wav */,
 				54A105311E401F45004278D5 /* Minecrafter.Alt.ttf */,
 				54A105321E401F45004278D5 /* Minecrafter.Reg.ttf */,
 				54A1051F1E3E7272004278D5 /* AppDelegate.swift */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A105361E4020BC004278D5 /* Minecraft.ttf in Resources */,
+				54A105381E402308004278D5 /* btn.wav in Resources */,
 				54A1052A1E3E7272004278D5 /* LaunchScreen.storyboard in Resources */,
 				54A105271E3E7272004278D5 /* Assets.xcassets in Resources */,
 				54A105331E401F45004278D5 /* Minecrafter.Alt.ttf in Resources */,
