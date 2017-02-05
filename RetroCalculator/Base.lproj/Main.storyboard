@@ -250,6 +250,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3M-P6-rfN">
+                                <rect key="frame" x="101" y="443" width="119" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="8zU-EV-E0V"/>
+                                    <constraint firstAttribute="height" constant="37" id="KrJ-Zb-gOt"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="clearAllWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WJI-ub-BiN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -257,6 +268,7 @@
                             <constraint firstAttribute="trailing" secondItem="3aU-Qq-VYD" secondAttribute="trailing" id="4Cz-0E-Jkr"/>
                             <constraint firstItem="EGL-H0-McZ" firstAttribute="trailing" secondItem="RRF-5q-XMJ" secondAttribute="trailing" constant="-20" id="5iF-zf-YrK"/>
                             <constraint firstItem="7fq-v2-nzD" firstAttribute="centerY" secondItem="gBp-Ph-x4K" secondAttribute="centerY" id="6Zw-Yb-Y9y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s3M-P6-rfN" secondAttribute="bottom" id="6tW-t9-qqx"/>
                             <constraint firstItem="RRF-5q-XMJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="70I-wv-jEK"/>
                             <constraint firstItem="EGL-H0-McZ" firstAttribute="leading" secondItem="RRF-5q-XMJ" secondAttribute="leading" constant="20" id="9z9-td-1IV"/>
                             <constraint firstItem="gBp-Ph-x4K" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="35" id="E83-6l-Tsy"/>
@@ -266,6 +278,7 @@
                             <constraint firstItem="3aU-Qq-VYD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Wbw-Xt-tk3"/>
                             <constraint firstItem="gBp-Ph-x4K" firstAttribute="top" secondItem="RRF-5q-XMJ" secondAttribute="bottom" constant="16.5" id="Ztg-c7-g3M"/>
                             <constraint firstItem="gBp-Ph-x4K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aNW-Lp-qW9"/>
+                            <constraint firstItem="s3M-P6-rfN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mQq-u6-KJp"/>
                             <constraint firstAttribute="trailing" secondItem="9wN-S5-Fx3" secondAttribute="trailing" id="o0d-Ef-Ehn"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3aU-Qq-VYD" secondAttribute="bottom" id="sbt-LO-O8i"/>
                             <constraint firstItem="3aU-Qq-VYD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uml-wc-n60"/>
@@ -276,6 +289,17 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yi4-EK-cF5">
+                    <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="eQc-mp-Lvt"/>
+                        <constraint firstAttribute="width" constant="56" id="rEM-QA-QPK"/>
+                    </constraints>
+                    <state key="normal" image="subtract"/>
+                    <connections>
+                        <action selector="onSubtractPressWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NRo-nE-1C0"/>
+                    </connections>
+                </button>
             </objects>
             <point key="canvasLocation" x="135" y="137.5"/>
         </scene>
@@ -293,6 +317,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
